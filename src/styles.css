@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.world_map {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.world_map img {
+   align-self: center;
+    max-width: 80%;
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+}
+
+.countryList {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 40px;
+    margin: 50px;
+    column-count: 3;
+
+}
+
+.countryList img {
+    width: 30px;
+}
+.country {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.population {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    margin-top: -15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Africa {
+    color: blue;}
+
+.NorthAmerica {
+    color: darkolivegreen;
+}
+.SouthAmerica {
+    color: mediumseagreen;
+}
+.Asia {
+    color: red;
+}
+.Europe {
+    color: gold;
+}
+.Oceania {
+    color: purple;
+}
